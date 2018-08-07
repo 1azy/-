@@ -2,10 +2,11 @@ import csv
 from re import split
 
 """
-1、按行分割csv文件，放在lists[]
-2、按列分割lists中的数据，放在
-3、创建一个keys[],存放表头
-4、创建一个字典，遍历lists 如果list是lists中的行，往字典中添加，k=head[i],v=list[i]
+1.读取文件
+2.以换行符为分隔符分割文件内容，返回一个数组result
+3.将返回的数组，以逗号为分隔符继续分割，返回一个数组里面嵌套数组的results
+4.遍历，将results 转换成一个字典
+5.将字典里的ip取出来作为字典的key，字典本身的内容作为value
 
 """
 def read_file(filename):
