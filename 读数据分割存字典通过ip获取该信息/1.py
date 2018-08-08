@@ -8,6 +8,7 @@ x = zip(a,b)
 
 
 print([('a', 1), ('b',2)])
+# dict
 print(dict([('a', 1), ('b',2)]))
 
 for temp in x:
@@ -20,6 +21,8 @@ print(c)
 print(c.get('a'))
 print(c['a'])
 print(c.get('x','abc'))
+
+
 
 try:
     print(c['x'])
