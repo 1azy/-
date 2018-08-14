@@ -5,11 +5,7 @@
 3.根据地址下载图片
 """
 
-import requests
-import re
-from urllib.request import urlretrieve
 import urllib
-
 import os
 import requests
 import re
@@ -36,13 +32,13 @@ def get_photo_url(keyword,page):
 
 def download(urls):
 
-    mkdir('downloads')
+    mkdir('downloads') # 当前目录新建一个download文件夹
     for x in urls:
 
-        a = x.split("/")[-1]
+        a = x.split("/")[-1]  #文件名
         print(a)
         try :
-             urlretrieve(x,'downloads\\'+a)
+             urlretrieve(x,'downloads\\'+a)  #以这个文件路径'downloads\\'+a ，作为x的文件路径
         except urllib.error.HTTPError as e:
              print(e)
         except OSError as e:

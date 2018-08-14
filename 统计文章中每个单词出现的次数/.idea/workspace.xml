@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54effc7e-13e5-4b30-b864-8f5ec63494b2" name="Default" comment="" />
+    <list default="true" id="ccda168f-b97f-4df1-9d4e-e8c3dbcaa3e3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,36 +11,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo.py">
+      <file leaf-file-name="count.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/count.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="90">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="e#15#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/count.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="y" value="17" />
-    <option name="width" value="1887" />
-    <option name="height" value="1079" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -52,8 +48,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="当前文件夹内所有txt的文件，都放到一个叫文本文件夹里面" type="b2602c69:ProjectViewProjectNode" />
-              <item name="当前文件夹内所有txt的文件，都放到一个叫文本文件夹里面" type="462c0819:PsiDirectoryNode" />
+              <item name="count" type="b2602c69:ProjectViewProjectNode" />
+              <item name="count" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -62,8 +58,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../将一个文件分成十个文件，再将这十个文件合并成一个" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,8 +73,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python">
-      <module name="把当前文件夹里面所有文件放到" />
+    <configuration name="count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="count" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -90,23 +85,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/count.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.count" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="54effc7e-13e5-4b30-b864-8f5ec63494b2" name="Default" comment="" />
-      <created>1533692981522</created>
+      <changelist id="ccda168f-b97f-4df1-9d4e-e8c3dbcaa3e3" name="Default" comment="" />
+      <created>1533092068173</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533692981522</updated>
+      <updated>1533092068173</updated>
     </task>
     <servers />
   </component>
@@ -114,15 +114,15 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1109375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3131635" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908705" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40976647" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -138,49 +138,37 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demo.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo.py">
+    <entry file="file://$PROJECT_DIR$/count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="21" selection-start-line="21" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="330">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
+    <entry file="file://$PROJECT_DIR$/count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="21" selection-start-line="21" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="480">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/工作软件/Python3.5.2/Lib/shutil.py">
+    <entry file="file://$PROJECT_DIR$/count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="537" selection-start-line="537" selection-end-line="537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/工作软件/Python3.5.2/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="90">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
